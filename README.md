@@ -1,0 +1,1 @@
+# bt610_firmware_manifest

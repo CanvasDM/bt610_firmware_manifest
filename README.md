@@ -4,6 +4,11 @@ This manifest repo will pull all the required firmware for the Sentrius BT610 se
 
 > **NOTE:** Customization process is required to enable all features of Laird Connectivity provided Canvas Device Management platform. Please [contact Laird Connectivity](https://www.lairdconnect.com/contact) if you require Canvas Device Management Services before you start development.
 
+## Required Hardware
+
+To program and/or debug the BT610 the following is required:
+- [Laird Connectivity USB-SWD Programmer](https://www.lairdconnect.com/wireless-modules/programming-kits/usb-swd-programming-kit)
+
 ## Cloning Firmware
 
 > **WARNING:** On Windows do not clone into a starting folder path longer than 12 characters or else the firmware will not build.

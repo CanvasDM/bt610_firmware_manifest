@@ -7,6 +7,7 @@ This manifest repo will pull all the required firmware for the Sentrius BT610 se
 ## Required Hardware
 
 To program and/or debug the BT610 the following is required:
+
 - [Laird Connectivity USB-SWD Programmer](https://www.lairdconnect.com/wireless-modules/programming-kits/usb-swd-programming-kit)
 
 ## Cloning Firmware
@@ -20,11 +21,7 @@ To clone this repository properly use the `west` tool. To install `west` you wil
 Install `west` using `pip3`:
 
 ```
-# Linux
 pip3 install --user -U west
-
-# macOS (Terminal) and Windows (cmd.exe)
-pip3 install -U west
 ```
 
 Once `west` is installed, clone this repository using `west init` and `west update`:
@@ -37,7 +34,7 @@ west init -m https://github.com/CanvasDM/bt610_firmware_manifest.git --mr main
 west init -m https://github.com/CanvasDM/bt610_firmware_manifest.git --mr GA1
 
 # Checkout a specific version
-west init -m https://github.com/CanvasDM/bt610_firmware_manifest.git --mr v0.3.0
+west init -m https://github.com/CanvasDM/bt610_firmware_manifest.git --mr v1.0.0
 
 # Now, pull all the source described in the manifest
 west update
@@ -58,13 +55,14 @@ From the directory where you ran `west update`, issue the following command:
 ```
 # Linux, macOS and Windows
 pip3 install --user -r zephyr/scripts/requirements.txt
+pip3 install --user -r nrf/scripts/requirements.txt
 pip3 install --user -r modules/lib/laird_connect/attributes/generator/requirements.txt
 ```
 
 Then build the firmware
 
 ```
-west build -p auto -b bt610 -d bt6xx_firmware/build bt6xx_firmware
+west build -p auto -b bt610 -d bt610_firmware/build bt610_firmware
 
 ```
 

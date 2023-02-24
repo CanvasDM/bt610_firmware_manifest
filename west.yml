@@ -10,78 +10,78 @@ manifest:
   projects:
     - name: app_source_file_template_module
       path: modules/lib/laird_connect/app_source_file_template
-      revision: main
+      revision: 77660b831cb70e02e6b9808f96d5f3fa621286e7
       remote: CanvasDM
     - name: Attributes
       path: modules/lib/laird_connect/attributes
-      revision: main
+      revision: 7c12c78a182fbce22af33fc1caeaa5830fb0db97
       remote: LairdCP
     - name: ble_client_device_manager_module
       path: modules/lib/laird_connect/ble_client_device_manager
-      revision: main
+      revision: de2e15f9371156a14d243d3d103c1486f29a6bbc
       remote: CanvasDM
     - name: bt610_firmware
-      revision: main
+      revision: b1eff781e455eb54f4d51fc5ebcabe270eda227e
       remote: CanvasDM
     - name: cmake_functions_module
       path: modules/lib/laird_connect/cmake_functions
-      revision: main
+      revision: 0f2eae9efac2078f6ac0fbc89f24a8992935e150
       remote: CanvasDM
     - name: lcz_hw_key_module
       path: modules/lib/laird_connect/lcz_hw_key
-      revision: main
+      revision: 854ba1bf008c5269cf8b7b490e1ee6b6bafce6c3
       remote: CanvasDM
     - name: lcz_lwm2m_util_module
       path: modules/lib/laird_connect/lcz_lwm2m_util
-      revision: main
+      revision: 5a3152a10ac00317103a566f59ed36657831459d
       remote: CanvasDM
     - name: locking_module
       path: modules/lib/laird_connect/locking
-      revision: main
+      revision: ccac2d53d50ef9d4b28c962d94de3f615e46a9d8
       remote: CanvasDM
     - name: lwm2m_client_module
       path: modules/lib/laird_connect/lwm2m_client
-      revision: main
+      revision: 308a2a9511b8d5a72d9d5d055a59e1e06af2b8d6
       remote: CanvasDM
     - name: lwm2m_connectivity_monitor_module
-      revision: main
+      revision: cf6450fb797eb613eaebc484942dd684edbe9624
       path: modules/lib/laird_connect/lwm2m_connectivity_monitor
       remote: CanvasDM
     - name: lwm2m_file_system_management_module
       path: modules/lib/laird_connect/lwm2m_file_system_management
-      revision: main
+      revision: 281da241a0ad397a1a53272c2fcc494707d9fc59
       remote: CanvasDM
     - name: lwm2m_firmware_update_module
       path: modules/lib/laird_connect/lwm2m_firmware_update
-      revision: main
+      revision: ae593439112c144db035c2ef1bd23eb399f53828
       remote: CanvasDM
     - name: lwm2m_ipso_current_module
       path: modules/lib/laird_connect/lwm2m_ipso_current
-      revision: main
+      revision: 181a60b9e13c25a8b3f962f24576924686709e41
       remote: CanvasDM
     - name: lwm2m_ipso_fill_level_module
       path: modules/lib/laird_connect/lwm2m_ipso_fill_level
-      revision: main
+      revision: 9e38b587ace96a4860835f800fae0ec30561ba69
       remote: CanvasDM
     - name: lwm2m_ipso_pressure_module
       path: modules/lib/laird_connect/lwm2m_ipso_pressure
-      revision: main
+      revision: 1d455725088f63016995ad153c8bb46e8dd99fc7
       remote: CanvasDM
     - name: lwm2m_ipso_temperature_module
       path: modules/lib/laird_connect/lwm2m_ipso_temperature
-      revision: main
+      revision: 2b0a3112ae6d7fc54bbe895bd43f3a9bc3a28506
       remote: CanvasDM
     - name: memfault-firmware-sdk
       path: modules/lib/memfault-firmware-sdk
-      revision: 0.33.4
+      revision: 5a265a6078d9301e7416b18cd08bd7a2ea7afa3f
       remote: LairdCP
     - name: pki_auth_module
       path: modules/lib/laird_connect/pki_auth
-      revision: main
+      revision: d03ce25dbd16b27e3401de1fdf296fee89df53bb
       remote: CanvasDM
     - name: sdk-nrf
       path: nrf
-      revision: laird/ncs_2.1.0-1
+      revision: 9a9d1a5c4f5483a7c55b259df69346b702987238
       remote: LairdCP
       import:
         # Please keep this list sorted alphabetically.
@@ -105,18 +105,18 @@ manifest:
           - trusted-firmware-m
     - name: shell_login_module
       path: modules/lib/laird_connect/shell_login
-      revision: main
+      revision: eb57e69107196b3e737b6863366235a33a2083e0
       remote: CanvasDM
     - name: shell_script_runner_module
       path: modules/lib/laird_connect/shell_script_runner
-      revision: main
+      revision: 62a27f8fdf5163efa811dd64112f7807375273a0
       remote: CanvasDM
     - name: system_message_task_module
       path: modules/lib/laird_connect/system_message_task
-      revision: main
+      revision: 2b306a77a09df6037635d1e7bd3520729e8c1d44
       remote: CanvasDM
     - name: zephyr
-      revision: laird/ncs_2.1.0-1
+      revision: 0d75c808d0b6546b39602ab778ae16e39f2571fd
       remote: LairdCP
       import:
         # In addition to the zephyr repository itself, NCS also
@@ -148,12 +148,12 @@ manifest:
           - zcbor
     - name: zephyr_lib
       path: modules/lib/laird_connect/zephyr_lib
-      revision: main
+      revision: c5db60e1a3fd580671f793144d86089b56dfc600
       remote: LairdCP
     # Framework must be placed after all components
     - name: zephyr_framework
       path: modules/lib/laird_connect/framework
-      revision: main
+      revision: fce9383112ae2b308195e618ba51c5bed8e4c014
       remote: LairdCP
   self:
     path: bt610_dm_firmware_public_manifest
